@@ -7,4 +7,11 @@
       <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"></link>
       <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"></link>
   </head>
+  <body ng-app="myapp">
+    <div class="container">
+      <div ng-controller="HelloController" class="jumbotron">
+        <h1>Welcome {{helloTo.name}} to Neustar!</h1>
+      </div>
+    </div>
+  </body>
 </html>
